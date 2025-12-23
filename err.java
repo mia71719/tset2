@@ -19,7 +19,7 @@ private void readFile()
 		      }
 		      myReader.close();
 		      
-		      ArrayList<Object[]> objList = new ArrayList<Object[]>();
+		     
 		      for (String prodInfo : prodInfoList)
 		      {
 		    	  String[] s =(prodInfo.substring(prodInfo.indexOf(":")+1)).split(",");
