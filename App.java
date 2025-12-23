@@ -10,7 +10,7 @@ public static void main(String[] args) throws Exception
     System.out.println("Transformed String: " + result);
     boolean matches = Pattern.matches("[A-Z]{3}[0-9]{3}", inputString);
     System.out.println("Matches pattern [A-Z]{3}[0-9]{3}: " + matches);
-    if(result == "ZAB012") {
+    if(result = "ZAB012") {
         System.out.println("Transformation is correct.");
     } else {
         System.out.println("Transformation is incorrect.");
