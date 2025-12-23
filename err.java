@@ -10,7 +10,7 @@ private void readFile()
 			  File myObj = new File(path+customer_id+"_insert.txt");
 			
 		      Scanner myReader = new Scanner(myObj);
-		      ArrayList<String> prodInfoList = new ArrayList<String>();
+		     
 		      while (myReader.hasNextLine()) 
 		      {
 		        String data = myReader.nextLine();
