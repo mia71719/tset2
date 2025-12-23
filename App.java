@@ -1,6 +1,6 @@
 public static void main(String[] args) throws Exception 
 {
-    String inputString = "ABC123";
+   
     StringBuilder newStr = new StringBuilder();
     byte[] array = inputString.getBytes(StandardCharsets.UTF_8);
     
